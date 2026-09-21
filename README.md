@@ -1,12 +1,3 @@
-1. Create react project
-2. Install Tailwind
-3. Daisyui
-4. react router
-5. lucide react
-6. rechart
-7. toastify
-8. sweetalert2
-
 
 # 🦸‍♂️ Assignment 008 — Hero IO
 
@@ -67,7 +58,7 @@
       { name: "5 star"; count: number }
     ];
   }
-  ```
+  
 
 ---
 
@@ -202,3 +193,37 @@
 - Reloading from any route must work correctly without showing a 404 error.
 
 ---
+ Create react project
+2. Install Tailwind
+3. Daisyui
+4. react router
+5. lucide react
+6. rechart
+7. toastify
+8. sweetalert2
+
+
+AppStore
+
+AppStore is a modern web application built with React JS. It provides an app-store-style interface where users can explore applications, view app details, ratings, reviews, downloads, and other information.
+
+🚀 Technologies Used
+
+This project is built using the following technologies and libraries:
+
+React JS =>
+Used to build the complete frontend application using reusable React components.
+React Router =>
+Used for navigation and routing between different pages of the application.
+Tailwind CSS =>
+Used for creating the responsive and modern user interface.
+DaisyUI =>
+A Tailwind CSS component library used to make the frontend more attractive and easier to build.
+Lucide React =>
+Used for icons throughout the application.
+Recharts =>
+Used to create charts and visualize application rating data.
+React Toastify =>
+Used to display toast notifications and alerts.
+SweetAlert2 =>
+Used to display interactive success, error, confirmation, and other types of alerts.

@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* nav item active style */
+a.active {
+    background: linear-gradient(to right, #7110dd, #aa59ec);
+    color:#ffff;
+}
+/* toast modify */
+.Toastify__close-button{
+    color:#ffffff  !important;
+    opacity: 1 !important;
+}

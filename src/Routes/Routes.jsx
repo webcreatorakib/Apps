@@ -15,7 +15,8 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 path: "/",
-                Component:Home,
+                Component: Home,
+                loader: () => fetch('../../public/App.json'),
             },
             {
                 path: "apps",
@@ -26,7 +27,8 @@ export const router = createBrowserRouter([
                 Component:InstallApps,
             },
             {
-                path: 'details',
+                path: 'details/:id',
+                loader: () => fetch('../../public/App.json'),
                 Component: Details
             },
             {

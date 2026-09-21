@@ -1,0 +1,1289 @@
+[
+    {
+        "image": "https://store-images.s-microsoft.com/image/apps.61526.14506576373691712.38ff9222-3a7a-460d-8e7a-1bd12852f54b.7fdc2716-2388-492a-b0cf-affe399b1675?q=90&w=256&h=256&mode=crop&format=jpg&background=%230078D7",
+        "title": "TaskFlow",
+        "companyName": "Productive Labs",
+        "id": 1001,
+        "description": "A simple task management app that helps you organize daily tasks, set priorities, and stay productive.",
+        "size": 28.5,
+        "reviews": 18500,
+        "ratingAvg": 4.7,
+        "downloads": 850000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 320
+            },
+            {
+                "name": "2 star",
+                "count": 540
+            },
+            {
+                "name": "3 star",
+                "count": 1250
+            },
+            {
+                "name": "4 star",
+                "count": 4800
+            },
+            {
+                "name": "5 star",
+                "count": 11590
+            }
+        ]
+    },
+    {
+        "image": "https://store-images.s-microsoft.com/image/apps.36228.13927439358983804.253b6542-3250-4b63-aead-81dcd5979ad8.d800e02e-3fba-42cc-bfd4-64fabdb7d0d0?q=90&w=256&h=256&mode=crop&format=jpg&background=%230078D7",
+        "title": "FitLife",
+        "companyName": "HealthWorks",
+        "id": 1002,
+        "description": "Track your workouts, monitor your fitness goals, and build healthy habits with personalized plans.",
+        "size": 42.8,
+        "reviews": 24300,
+        "ratingAvg": 4.6,
+        "downloads": 1200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 450
+            },
+            {
+                "name": "2 star",
+                "count": 720
+            },
+            {
+                "name": "3 star",
+                "count": 2100
+            },
+            {
+                "name": "4 star",
+                "count": 6800
+            },
+            {
+                "name": "5 star",
+                "count": 14230
+            }
+        ]
+    },
+    {
+        "image": "https://cdn.shopify.com/app-store/listing_images/b6eecdb7c298a4c18fbeae798be3da9b/icon/CIuH7Y7Y5fcCEAE=.png",
+        "title": "NoteMaster",
+        "companyName": "Smart Apps Ltd",
+        "id": 1003,
+        "description": "Create, organize, and manage your notes with a clean and easy-to-use interface.",
+        "size": 19.6,
+        "reviews": 12700,
+        "ratingAvg": 4.8,
+        "downloads": 670000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 180
+            },
+            {
+                "name": "2 star",
+                "count": 300
+            },
+            {
+                "name": "3 star",
+                "count": 850
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 8270
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/ac79J_dQuTwmJkLUjupfyT-pT1Oab4LG96bH1C6OMq0mfac13VxBfVeTtvy5M8_fiObx7rKZI5Im9QjUKLDRHQ",
+        "title": "PhotoFix",
+        "companyName": "Pixel Studio",
+        "id": 1004,
+        "description": "Edit your photos with powerful filters, adjustments, effects, and easy-to-use editing tools.",
+        "size": 56.4,
+        "reviews": 31800,
+        "ratingAvg": 4.5,
+        "downloads": 2400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 820
+            },
+            {
+                "name": "2 star",
+                "count": 1050
+            },
+            {
+                "name": "3 star",
+                "count": 3400
+            },
+            {
+                "name": "4 star",
+                "count": 9200
+            },
+            {
+                "name": "5 star",
+                "count": 17330
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF4AbldDmVWyXpcpk-cGVzaAMTjoOwK2Q6xwY75CfmRWUghItZEwjWw3M&s=10",
+        "title": "MusicBox",
+        "companyName": "SoundWave Inc",
+        "id": 1005,
+        "description": "Discover music, create playlists, and enjoy your favorite songs anytime and anywhere.",
+        "size": 35.2,
+        "reviews": 45600,
+        "ratingAvg": 4.4,
+        "downloads": 3800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1600
+            },
+            {
+                "name": "2 star",
+                "count": 2200
+            },
+            {
+                "name": "3 star",
+                "count": 6100
+            },
+            {
+                "name": "4 star",
+                "count": 14500
+            },
+            {
+                "name": "5 star",
+                "count": 21200
+            }
+        ]
+    },
+    {
+        "image": "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/icon/CPfuk--TuJEDEAE=.png",
+        "title": "WeatherPlus",
+        "companyName": "SkyTech",
+        "id": 1006,
+        "description": "Get accurate weather forecasts, hourly updates, and weather alerts for your location.",
+        "size": 16.8,
+        "reviews": 9800,
+        "ratingAvg": 4.3,
+        "downloads": 950000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 420
+            },
+            {
+                "name": "2 star",
+                "count": 510
+            },
+            {
+                "name": "3 star",
+                "count": 1400
+            },
+            {
+                "name": "4 star",
+                "count": 3000
+            },
+            {
+                "name": "5 star",
+                "count": 4470
+            }
+        ]
+    },
+    {
+        "image": "https://media.licdn.com/dms/image/v2/C560BAQGrufEISkJiLg/company-logo_200_200/company-logo_200_200/0/1630571767283?e=2147483647&v=beta&t=Zl7cxTmyZ1Gv7yzSgI0jSpxPrcb0qAvvflYJAvh5uHU",
+        "title": "LearnHub",
+        "companyName": "EduTech",
+        "id": 1007,
+        "description": "Learn new skills through interactive courses, video lessons, quizzes, and educational resources.",
+        "size": 48.7,
+        "reviews": 27600,
+        "ratingAvg": 4.8,
+        "downloads": 1750000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 280
+            },
+            {
+                "name": "2 star",
+                "count": 430
+            },
+            {
+                "name": "3 star",
+                "count": 1600
+            },
+            {
+                "name": "4 star",
+                "count": 6500
+            },
+            {
+                "name": "5 star",
+                "count": 18790
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbFUGD8zwjFuNe0kU0IfgZX79YOuP4HMoTxvisJfHifOT8bZiUSuz4X2u&s=10",
+        "title": "ExpenseMate",
+        "companyName": "FinancePro",
+        "id": 1008,
+        "description": "Manage your personal finances, track expenses, create budgets, and monitor your spending habits.",
+        "size": 22.4,
+        "reviews": 15400,
+        "ratingAvg": 4.6,
+        "downloads": 720000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 240
+            },
+            {
+                "name": "2 star",
+                "count": 390
+            },
+            {
+                "name": "3 star",
+                "count": 1100
+            },
+            {
+                "name": "4 star",
+                "count": 4200
+            },
+            {
+                "name": "5 star",
+                "count": 9470
+            }
+        ]
+    },
+    {
+        "image": "https://cdn.vectorstock.com/i/500p/88/66/financial-c-logo-modern-business-icon-vector-34858866.jpg",
+        "title": "TravelMate",
+        "companyName": "ExploreNow",
+        "id": 1009,
+        "description": "Plan your trips, discover destinations, organize itineraries, and keep your travel information in one place.",
+        "size": 39.5,
+        "reviews": 11200,
+        "ratingAvg": 4.5,
+        "downloads": 580000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 310
+            },
+            {
+                "name": "2 star",
+                "count": 460
+            },
+            {
+                "name": "3 star",
+                "count": 1250
+            },
+            {
+                "name": "4 star",
+                "count": 3500
+            },
+            {
+                "name": "5 star",
+                "count": 5680
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl6jXS2QhBCUy44Wso7kk8cwyjOt6PWZ6UNrGiodl8rGEjlwu0Y0W1SkLs&s=10",
+        "title": "ChatSpace",
+        "companyName": "Connectify",
+        "id": 1010,
+        "description": "Stay connected with friends and family through fast messaging, group chats, and media sharing.",
+        "size": 31.8,
+        "reviews": 52400,
+        "ratingAvg": 4.2,
+        "downloads": 5200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3200
+            },
+            {
+                "name": "2 star",
+                "count": 4100
+            },
+            {
+                "name": "3 star",
+                "count": 8200
+            },
+            {
+                "name": "4 star",
+                "count": 15400
+            },
+            {
+                "name": "5 star",
+                "count": 21500
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTknLg8vD664uMBYBMEWk4wPXgDad6korUCpy34ML_5iu6OptwY3Zb2j0w&s=10",
+        "title": "RecipeBox",
+        "companyName": "FoodTech",
+        "id": 1011,
+        "description": "Discover delicious recipes, save your favorites, and find cooking ideas for every occasion.",
+        "size": 27.3,
+        "reviews": 8600,
+        "ratingAvg": 4.7,
+        "downloads": 430000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 260
+            },
+            {
+                "name": "3 star",
+                "count": 720
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 5000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn.shopify.com/app-store/listing_images/a7655c6929c8103d6292296c6ae46aed/icon/CNyywtvdkJQDEAE=.png",
+        "title": "PasswordSafe",
+        "companyName": "SecureTech",
+        "id": 1012,
+        "description": "Securely store and manage your passwords and sensitive information with strong encryption.",
+        "size": 14.9,
+        "reviews": 7300,
+        "ratingAvg": 4.9,
+        "downloads": 390000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 90
+            },
+            {
+                "name": "3 star",
+                "count": 350
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 5200
+            }
+        ]
+    },
+    {
+        "image": "https://static-images.aptoide.com/_next/image?url=https%3A%2F%2Fcdn.aptoide.com%2Fimgs%2F3%2F7%2F7%2F377201e48ced3455384fda9571273c0c_fgraphic.png&w=3840&q=60",
+        "title": "QuickScan",
+        "companyName": "Utility Labs",
+        "id": 1013,
+        "description": "Scan documents quickly, convert them to digital files, and share them with others.",
+        "size": 24.6,
+        "reviews": 13400,
+        "ratingAvg": 4.4,
+        "downloads": 860000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 480
+            },
+            {
+                "name": "2 star",
+                "count": 620
+            },
+            {
+                "name": "3 star",
+                "count": 1700
+            },
+            {
+                "name": "4 star",
+                "count": 4300
+            },
+            {
+                "name": "5 star",
+                "count": 6300
+            }
+        ]
+    },
+    {
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/006/257/368/small/initial-letter-c-home-house-logo-design-real-estate-logo-concept-illustration-vector.jpg",
+        "title": "EBook Reader",
+        "companyName": "ReadMore",
+        "id": 1014,
+        "description": "Read your favorite books and documents with customizable reading settings and a comfortable interface.",
+        "size": 18.7,
+        "reviews": 10200,
+        "ratingAvg": 4.6,
+        "downloads": 610000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 170
+            },
+            {
+                "name": "2 star",
+                "count": 280
+            },
+            {
+                "name": "3 star",
+                "count": 850
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 5800
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8f-Yrs1XluLO_Vlekp40NyQdHAPCtDK5x1jAMP21tmIlyZWm7wysCLX6b&s=10",
+        "title": "CalendarPro",
+        "companyName": "OrganizeIT",
+        "id": 1015,
+        "description": "Manage your schedule, create events, set reminders, and organize your daily activities.",
+        "size": 21.5,
+        "reviews": 16700,
+        "ratingAvg": 4.5,
+        "downloads": 920000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 350
+            },
+            {
+                "name": "2 star",
+                "count": 480
+            },
+            {
+                "name": "3 star",
+                "count": 1350
+            },
+            {
+                "name": "4 star",
+                "count": 4900
+            },
+            {
+                "name": "5 star",
+                "count": 9620
+            }
+        ]
+    },
+    {
+        "image": "https://cdn.shopify.com/app-store/listing_images/9b6de2aa7d2880adc5dab288b5147274/icon/CO2Jp5XS8owDEAE=.png",
+        "title": "VideoMaster",
+        "companyName": "MediaWorks",
+        "id": 1016,
+        "description": "Create and edit professional-looking videos with effects, transitions, music, and filters.",
+        "size": 72.4,
+        "reviews": 28900,
+        "ratingAvg": 4.3,
+        "downloads": 2100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200
+            },
+            {
+                "name": "2 star",
+                "count": 1600
+            },
+            {
+                "name": "3 star",
+                "count": 3900
+            },
+            {
+                "name": "4 star",
+                "count": 9200
+            },
+            {
+                "name": "5 star",
+                "count": 13000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn.dribbble.com/userupload/29309819/file/original-16e729cfc10a45af514be4a246519202.jpg",
+        "title": "LanguageLearn",
+        "companyName": "Global Education",
+        "id": 1017,
+        "description": "Learn new languages through interactive lessons, vocabulary exercises, and daily practice.",
+        "size": 33.1,
+        "reviews": 22100,
+        "ratingAvg": 4.7,
+        "downloads": 1450000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 250
+            },
+            {
+                "name": "2 star",
+                "count": 410
+            },
+            {
+                "name": "3 star",
+                "count": 1250
+            },
+            {
+                "name": "4 star",
+                "count": 5700
+            },
+            {
+                "name": "5 star",
+                "count": 14490
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUQ_qX7xXPz36nTEXlmBO47xxuvXtKKtVXMpscu6IQwzhLxWgUlsZTLA&s=10",
+        "title": "FileManager",
+        "companyName": "System Tools",
+        "id": 1018,
+        "description": "Manage files and folders easily with powerful search, organization, and file management tools.",
+        "size": 17.2,
+        "reviews": 18900,
+        "ratingAvg": 4.4,
+        "downloads": 1850000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 680
+            },
+            {
+                "name": "2 star",
+                "count": 820
+            },
+            {
+                "name": "3 star",
+                "count": 2400
+            },
+            {
+                "name": "4 star",
+                "count": 6200
+            },
+            {
+                "name": "5 star",
+                "count": 8800
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "QuickNotes",
+        "companyName": "Simple Apps",
+        "id": 1019,
+        "description": "Capture your ideas and important information quickly with a lightweight note-taking application.",
+        "size": 12.8,
+        "reviews": 6400,
+        "ratingAvg": 4.8,
+        "downloads": 350000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 420
+            },
+            {
+                "name": "4 star",
+                "count": 1900
+            },
+            {
+                "name": "5 star",
+                "count": 3880
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuLxPi8CV--Zulx-niDi5DpPJSWSB9mwfiPY8w6tK7YQD9X7denamU5F4&s=10",
+        "title": "FinancePlus",
+        "companyName": "MoneyWise",
+        "id": 1020,
+        "description": "Track income, expenses, savings, and financial goals with a simple personal finance dashboard.",
+        "size": 25.9,
+        "reviews": 14300,
+        "ratingAvg": 4.6,
+        "downloads": 780000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 210
+            },
+            {
+                "name": "2 star",
+                "count": 360
+            },
+            {
+                "name": "3 star",
+                "count": 1050
+            },
+            {
+                "name": "4 star",
+                "count": 4200
+            },
+            {
+                "name": "5 star",
+                "count": 8480
+            }
+        ]
+    },
+    {
+        "image": "https://png.pngtree.com/png-vector/20221127/ourmid/pngtree-digital-media-play-button-gradient-color-hexagon-marketing-agency-mobile-app-png-image_6482499.png",
+        "title": "WeatherNow",
+        "companyName": "Smart Weather",
+        "id": 1021,
+        "description": "Get accurate weather forecasts, temperature updates, and daily weather information.",
+        "size": 24.2,
+        "reviews": 9100,
+        "ratingAvg": 4.6,
+        "downloads": 580000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 180
+            },
+            {
+                "name": "3 star",
+                "count": 520
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 5800
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyIAcsIJCRSAGQYoCCgCh0RylmnEf3rMZ8qy3TDoV5YA&s",
+        "title": "FitTrack",
+        "companyName": "Healthy Life",
+        "id": 1022,
+        "description": "Track your workouts, daily activities, and fitness progress with helpful statistics.",
+        "size": 32.6,
+        "reviews": 8300,
+        "ratingAvg": 4.5,
+        "downloads": 390000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 210
+            },
+            {
+                "name": "3 star",
+                "count": 600
+            },
+            {
+                "name": "4 star",
+                "count": 2300
+            },
+            {
+                "name": "5 star",
+                "count": 5070
+            }
+        ]
+    },
+    {
+        "image": "https://cdn.shopify.com/app-store/listing_images/140c63f2429a0b79f294d35adecbdf13/icon/CNCw2bCFiIcDEAE=.png",
+        "title": "PhotoEdit",
+        "companyName": "Creative Studio",
+        "id": 1023,
+        "description": "Edit your photos with filters, effects, cropping tools, and professional adjustments.",
+        "size": 45.8,
+        "reviews": 12500,
+        "ratingAvg": 4.8,
+        "downloads": 720000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 170
+            },
+            {
+                "name": "3 star",
+                "count": 540
+            },
+            {
+                "name": "4 star",
+                "count": 2800
+            },
+            {
+                "name": "5 star",
+                "count": 8900
+            }
+        ]
+    },
+    {
+        "image": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c17cb5916ae040001e0242c/0x0.png",
+        "title": "BudgetPro",
+        "companyName": "Finance Tools",
+        "id": 1024,
+        "description": "Manage your personal expenses, income, savings, and monthly budget in one place.",
+        "size": 15.4,
+        "reviews": 6700,
+        "ratingAvg": 4.4,
+        "downloads": 310000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 110
+            },
+            {
+                "name": "2 star",
+                "count": 190
+            },
+            {
+                "name": "3 star",
+                "count": 510
+            },
+            {
+                "name": "4 star",
+                "count": 1800
+            },
+            {
+                "name": "5 star",
+                "count": 4090
+            }
+        ]
+    },
+    {
+        "image": "https://thumbs.dreamstime.com/b/web-184356092.jpg",
+        "title": "LearnEasy",
+        "companyName": "EduTech Labs",
+        "id": 1025,
+        "description": "Learn new skills through simple lessons, quizzes, and interactive educational content.",
+        "size": 28.7,
+        "reviews": 10400,
+        "ratingAvg": 4.7,
+        "downloads": 650000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 160
+            },
+            {
+                "name": "3 star",
+                "count": 490
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 7180
+            }
+        ]
+    },
+    {
+        "image": "https://images.seeklogo.com/logo-png/37/1/tiktok-app-icon-logo-png_seeklogo-373800.png",
+        "title": "MusicBox",
+        "companyName": "Audio Works",
+        "id": 1026,
+        "description": "Listen to your favorite songs and create playlists for every mood and occasion.",
+        "size": 38.9,
+        "reviews": 15200,
+        "ratingAvg": 4.6,
+        "downloads": 890000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 140
+            },
+            {
+                "name": "2 star",
+                "count": 230
+            },
+            {
+                "name": "3 star",
+                "count": 700
+            },
+            {
+                "name": "4 star",
+                "count": 3600
+            },
+            {
+                "name": "5 star",
+                "count": 10530
+            }
+        ]
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/3/31/AppIcon_Season_16_Max_Out.png/revision/latest?cb=20240903181753",
+        "title": "SecureVault",
+        "companyName": "SafeTech",
+        "id": 1027,
+        "description": "Protect your private files, passwords, and important information with secure storage.",
+        "size": 21.3,
+        "reviews": 5900,
+        "ratingAvg": 4.5,
+        "downloads": 280000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 140
+            },
+            {
+                "name": "3 star",
+                "count": 430
+            },
+            {
+                "name": "4 star",
+                "count": 1700
+            },
+            {
+                "name": "5 star",
+                "count": 3540
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYiIXavEMTPsSFOhEX18FymMPaqibhsS1oOGF1DJL9hQ&s=10",
+        "title": "TravelMate",
+        "companyName": "Travel Apps",
+        "id": 1028,
+        "description": "Plan your trips, discover destinations, and organize your travel itinerary easily.",
+        "size": 27.5,
+        "reviews": 7600,
+        "ratingAvg": 4.6,
+        "downloads": 450000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 150
+            },
+            {
+                "name": "3 star",
+                "count": 470
+            },
+            {
+                "name": "4 star",
+                "count": 2200
+            },
+            {
+                "name": "5 star",
+                "count": 4700
+            }
+        ]
+    },
+    {
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png?quality=90&strip=all&crop=1.2535702951444%2C0%2C97.492859409711%2C100&w=2400",
+        "title": "ChatPlus",
+        "companyName": "Connect Labs",
+        "id": 1029,
+        "description": "Stay connected with friends and family through fast and simple messaging.",
+        "size": 19.6,
+        "reviews": 11200,
+        "ratingAvg": 4.7,
+        "downloads": 760000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 180
+            },
+            {
+                "name": "3 star",
+                "count": 500
+            },
+            {
+                "name": "4 star",
+                "count": 2600
+            },
+            {
+                "name": "5 star",
+                "count": 7820
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRppRFnMRHrNBNQAc0BORRet0oPEYVrqnKkDkqQSzNJPQ&s",
+        "title": "DailyNews",
+        "companyName": "News Network",
+        "id": 1030,
+        "description": "Read the latest local and international news with a clean and simple interface.",
+        "size": 16.8,
+        "reviews": 6200,
+        "ratingAvg": 4.3,
+        "downloads": 340000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150
+            },
+            {
+                "name": "2 star",
+                "count": 220
+            },
+            {
+                "name": "3 star",
+                "count": 650
+            },
+            {
+                "name": "4 star",
+                "count": 1900
+            },
+            {
+                "name": "5 star",
+                "count": 3280
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "CalculatorX",
+        "companyName": "Utility Apps",
+        "id": 1031,
+        "description": "A powerful calculator with basic and advanced mathematical functions.",
+        "size": 9.8,
+        "reviews": 4800,
+        "ratingAvg": 4.4,
+        "downloads": 220000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 350
+            },
+            {
+                "name": "4 star",
+                "count": 1400
+            },
+            {
+                "name": "5 star",
+                "count": 2870
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "FileManager",
+        "companyName": "Storage Tools",
+        "id": 1032,
+        "description": "Browse, organize, copy, move, and manage files stored on your device.",
+        "size": 22.1,
+        "reviews": 7100,
+        "ratingAvg": 4.5,
+        "downloads": 410000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 160
+            },
+            {
+                "name": "3 star",
+                "count": 460
+            },
+            {
+                "name": "4 star",
+                "count": 2100
+            },
+            {
+                "name": "5 star",
+                "count": 4290
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "RecipeBook",
+        "companyName": "Food Studio",
+        "id": 1033,
+        "description": "Discover easy recipes and save your favorite meals for later.",
+        "size": 31.4,
+        "reviews": 5400,
+        "ratingAvg": 4.6,
+        "downloads": 290000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 380
+            },
+            {
+                "name": "4 star",
+                "count": 1500
+            },
+            {
+                "name": "5 star",
+                "count": 3370
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "VideoMaker",
+        "companyName": "Creative Apps",
+        "id": 1034,
+        "description": "Create and edit videos using transitions, effects, music, and creative tools.",
+        "size": 58.6,
+        "reviews": 13600,
+        "ratingAvg": 4.7,
+        "downloads": 630000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 210
+            },
+            {
+                "name": "3 star",
+                "count": 580
+            },
+            {
+                "name": "4 star",
+                "count": 2800
+            },
+            {
+                "name": "5 star",
+                "count": 9890
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "LanguagePro",
+        "companyName": "Learning Hub",
+        "id": 1035,
+        "description": "Improve your vocabulary and language skills through daily practice and exercises.",
+        "size": 26.9,
+        "reviews": 8700,
+        "ratingAvg": 4.8,
+        "downloads": 510000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 120
+            },
+            {
+                "name": "3 star",
+                "count": 430
+            },
+            {
+                "name": "4 star",
+                "count": 1900
+            },
+            {
+                "name": "5 star",
+                "count": 6180
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "CloudDrive",
+        "companyName": "Cloud Systems",
+        "id": 1036,
+        "description": "Store your important files securely in the cloud and access them from anywhere.",
+        "size": 35.7,
+        "reviews": 9300,
+        "ratingAvg": 4.5,
+        "downloads": 470000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 130
+            },
+            {
+                "name": "2 star",
+                "count": 190
+            },
+            {
+                "name": "3 star",
+                "count": 570
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 5910
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "MindFocus",
+        "companyName": "Wellness Apps",
+        "id": 1037,
+        "description": "Improve concentration and relaxation with guided exercises and focus sessions.",
+        "size": 20.5,
+        "reviews": 6100,
+        "ratingAvg": 4.6,
+        "downloads": 330000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 110
+            },
+            {
+                "name": "3 star",
+                "count": 390
+            },
+            {
+                "name": "4 star",
+                "count": 1700
+            },
+            {
+                "name": "5 star",
+                "count": 3840
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "ShoppingHub",
+        "companyName": "Retail Apps",
+        "id": 1038,
+        "description": "Browse products, compare prices, and manage your online shopping conveniently.",
+        "size": 29.3,
+        "reviews": 10800,
+        "ratingAvg": 4.4,
+        "downloads": 550000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 180
+            },
+            {
+                "name": "2 star",
+                "count": 240
+            },
+            {
+                "name": "3 star",
+                "count": 720
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 6560
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RaP4D6cNyfXqJ_0KenAfD2fgJWMzCjGzLQdbwBleBXKMZQwhj7ZUHNn0&s=10",
+        "title": "PasswordSafe",
+        "companyName": "Security Labs",
+        "id": 1039,
+        "description": "Keep your passwords and private account information organized and protected.",
+        "size": 14.7,
+        "reviews": 7300,
+        "ratingAvg": 4.7,
+        "downloads": 360000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 410
+            },
+            {
+                "name": "4 star",
+                "count": 2100
+            },
+            {
+                "name": "5 star",
+                "count": 4600
+            }
+        ]
+    }
+]
