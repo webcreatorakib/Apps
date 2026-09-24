@@ -1,25 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Download from '../../assets/icon-downloads.png';
 import Rating from '../../assets/icon-ratings.png';
 import Like from '../../assets/icon-review.png';
+import { ToastContainer, toast } from 'react-toastify';
 //chart 
 import { BarChart, XAxis, YAxis, Bar } from 'recharts';
 import { useLoaderData, useParams } from 'react-router';
 
 const Details = () => {
+    // showing items
     const { id } = useParams()
     const appData = useLoaderData();
     const newApp = appData.find(item => item.id == id);
-    const { title, image, downloads, ratingAvg, description, reviews } = newApp;
+    const { title, image, downloads, ratingAvg, description, reviews, ratings, size } = newApp;
     const newReviews = reviews / 1000;
-    console.log(newApp)
-    const data = [
-        { name: "5 Star", value: 5000 },
-        { name: "4 Star", value: 3002 },
-        { name: "3 Star", value: 1005 },
-        { name: "2 Star", value: 80 },
-        { name: "1 Star", value: 500 },
-    ]
+    let data = []
+    for (let i = ratings.length - 1; i >= 0; i--){
+        const item = ratings[i];
+        data.push(item)
+    }
+    // button disable
+    const [show, setShow] = useState(false);
+    function handleInstall(value) {
+        setShow(value)
+        toast("Install Completed", {
+            style: {
+                background: "black",
+                color: "white"
+            }
+        });
+    }
     return (
         <div className='bg-[#f5f5f5] md:pt-20 pt-10 px-10 md:px-20'>
             <div className='flex flex-col md:flex-row gap-5'>
@@ -61,7 +71,7 @@ const Details = () => {
                             </div>
                         </div>
                     </div>
-                    <button className='btn mt-5 sm:mt-0 text-white bg-[#00d494]'>Install Now (291 MB)</button>
+                    <button onClick={() => handleInstall(!show)} className={`btn mt-5 sm:mt-0 text-white ${show ? "btn-disabled bg-[#00d49476]" : ""} bg-[#00d494]`}>{show ? "Installed" : `Install Now (${size} MB)` }</button>
                 </div>
             </div>
             <div className="divider"></div>
@@ -89,7 +99,7 @@ const Details = () => {
                         dataKey="name"
                     />
                     <Bar
-                        dataKey="value"
+                        dataKey="count"
                         barSize={20}
                         fill="#ff8c30"
                     />
@@ -105,6 +115,7 @@ const Details = () => {
                     </p>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };

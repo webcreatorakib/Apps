@@ -1,11 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import logo from '../../assets/logo.png';
 import github from '../../assets/github.svg';
 import { House, LayoutGrid, ArrowBigDownDash } from 'lucide-react';
 const Header = () => {
     return (
-        <div className='md:max-w-dvw px-8 md:px-20 md:mx-5'>
+        <div className='md:max-w-dvw px-5 md:px-20 md:mx-5'>
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -16,32 +16,30 @@ const Header = () => {
                             tabIndex={-1}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><NavLink to={"/"}><House />Home</NavLink></li>
-                            <li><NavLink to={'apps'}>Apps</NavLink></li>
-                            <li><NavLink to={"installation"}>Installation</NavLink></li>
-                            <li><NavLink to={"notFound"}>Not Found</NavLink></li>
-                            <li><NavLink to={"pageNotFound"}>Page Not Found</NavLink></li>
+                            <li><NavLink to={'apps'}><LayoutGrid size={16} />Apps</NavLink></li>
+                            <li><NavLink to={"installation"}><ArrowBigDownDash size={16} />Installation</NavLink></li>
                         </ul>
                     </div>
-                    <a className="flex gap-1 items-center cursor-pointer font-bold text-xl">
-                        <figure className='h-10 w-10'>
-                            <img src={logo}></img>
-                        </figure>
-                        <span className="bg-linear-163 from-[#7110dd] to-[#aa59ec] bg-clip-text text-transparent">HERO.IO</span>
-                    </a>
+                    <Link to={"/"}>
+                        <a className="flex gap-1 items-center cursor-pointer font-bold text-xl">
+                            <figure className='h-10 w-10'>
+                                <img src={logo}></img>
+                            </figure>
+                            <span className="bg-linear-163 from-[#7110dd] to-[#aa59ec] bg-clip-text text-transparent">HERO.IO</span>
+                        </a>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li>
+                        <li className='me-2'>
                             <NavLink
                             className={({ isActive}) => isActive ? "active" : ""
                             }
                             to={"/"}>
                             <House size={16} />Home</NavLink>
                         </li>
-                        <li><NavLink to={'apps'}><LayoutGrid size={16} />Apps</NavLink></li>
+                        <li className='me-2'><NavLink to={'apps'}><LayoutGrid size={16} />Apps</NavLink></li>
                         <li><NavLink to={"installation"}><ArrowBigDownDash size={16} />Installation</NavLink></li>
-                        <li><NavLink to={"notFound"}>Not Found</NavLink></li>
-                        <li><NavLink to={"pageNotFound"}>Page Not Found</NavLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

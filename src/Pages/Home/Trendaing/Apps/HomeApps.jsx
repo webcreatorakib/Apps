@@ -6,7 +6,7 @@ const HomeApps = ({ item }) => {
     const { image, title, downloads, ratingAvg, id } = item;
     return (
         <>
-            <Link to={`details/${id}`}>
+            <Link to={`apps/details/${id}`}>
                 <div className="card bg-white pt-4 sm:p-4 shadow-sm">
                     <figure>
                         <img className='rounded-xl mx-auto w-auto sm:h-60'

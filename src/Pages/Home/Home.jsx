@@ -13,7 +13,7 @@ const Home = () => {
     const handleLoadMore = () => {
         if (
             appsData.length >= apps.length) {
-            toast("No More Data !",{
+            toast("No More Apps !",{
                 style: {
                     background: "black",
                     color : "white"
@@ -26,7 +26,7 @@ const Home = () => {
     }
 
     return (
-        <div className="bg-[#f5f5f5] text-center pt-20">
+        <div className="bg-[#f5f5f5] text-center pt-10 md:pt-20">
             <div className="px-5">
                 <h1 className="text-5xl md:text-6xl font-bold">We Build <br></br> <span className="bg-linear-163 from-[#7110dd] to-[#aa59ec] bg-clip-text text-transparent font-extrabold">Productive</span> Apps</h1>
                 <p className="my-6 text-gray-500 md:text-xl">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br></br>Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
@@ -40,10 +40,10 @@ const Home = () => {
                     </figure>
                 </div>
             </div>
-            <div className="bg-linear-163 from-[#7110dd] to-[#aa59ec] relative py-20 px-5 text-white">
+            <div className="bg-linear-163 from-[#7110dd] to-[#aa59ec] relative py-10 md:py-20 px-5 text-white">
                 <div>
                     <h2 className="text-4xl md:text-5xl font-bold">Trusted by Millions, Built for You</h2>
-                    <div className="flex justify-center mt-8 flex-wrap gap-20">
+                    <div className="flex justify-center mt-8 flex-wrap gap-10 md:gap-20">
                         <div>
                             <p className="text-gray-300">Total Downloads</p>
                             <h3 className="font-bold text-5xl my-4">29.6M</h3>
@@ -62,7 +62,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-20 px-5">
+            <div className="py-10 md:py-20 px-5">
                 <div>
                     <h2 className="text-4xl md:text-5xl font-bold">Trending Apps</h2>
                     <p className="my-5 text-gray-500">Explore All Trending Apps on the Market developed by us</p>
@@ -74,8 +74,8 @@ const Home = () => {
                         </Suspense>)
                     }
                 </div>
-                <div className='mt-10'>
-                    <button className='btn bg-linear-163 from-[#7110dd] to-[#aa59ec] text-white btn-xl' onClick={()=>handleLoadMore()}>Show More</button>
+                <div className='mt-5 md:mt-10'>
+                    <button className='btn bg-linear-163 from-[#7110dd] to-[#aa59ec] text-white md:btn-xl' onClick={()=>handleLoadMore()}>Show More</button>
                 </div>
             </div>
             {/* alert */}

@@ -16,10 +16,11 @@ export const router = createBrowserRouter([
                 index: true,
                 path: "/",
                 Component: Home,
-                loader: () => fetch('../../public/App.json'),
+                loader: () => fetch('/App.json'),
             },
             {
                 path: "apps",
+                loader: ()=> fetch('/App.json'),
                 Component: Apps,
             },
             {
@@ -27,17 +28,13 @@ export const router = createBrowserRouter([
                 Component:InstallApps,
             },
             {
-                path: 'details/:id',
-                loader: () => fetch('../../public/App.json'),
+                path: 'apps/details/:id',
+                loader: () => fetch('/App.json'),
                 Component: Details
             },
             {
-                path: 'notFound',
-                Component:NotFound,
-            },
-            {
-                path: "pageNotFound",
-                Component:PageNotFound,
+                path: "*",
+                Component : PageNotFound,
             }
         ]
     },
