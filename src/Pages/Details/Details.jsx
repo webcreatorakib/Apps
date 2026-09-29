@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Download from '../../assets/icon-downloads.png';
 import Rating from '../../assets/icon-ratings.png';
 import Like from '../../assets/icon-review.png';
@@ -6,13 +6,14 @@ import { ToastContainer, toast } from 'react-toastify';
 //chart 
 import { BarChart, XAxis, YAxis, Bar } from 'recharts';
 import { useLoaderData, useParams } from 'react-router';
+import { getStorage, setStorage } from '../Js/LocalStorage';
 
 const Details = () => {
     // showing items
     const { id } = useParams()
     const appData = useLoaderData();
     const newApp = appData.find(item => item.id == id);
-    const { title, image, downloads, ratingAvg, description, reviews, ratings, size } = newApp;
+    const { title, image, downloads, ratingAvg, description, reviews, ratings, size} = newApp;
     const newReviews = reviews / 1000;
     let data = []
     for (let i = ratings.length - 1; i >= 0; i--){
@@ -20,8 +21,10 @@ const Details = () => {
         data.push(item)
     }
     // button disable
-    const [show, setShow] = useState(false);
-    function handleInstall(value) {
+    const [show, setShow] = useState(() => {
+        return getStorage().includes(newApp.id);
+    });
+    function handleInstall(value,id) {
         setShow(value)
         toast("Install Completed", {
             style: {
@@ -29,6 +32,7 @@ const Details = () => {
                 color: "white"
             }
         });
+        setStorage(id);
     }
     return (
         <div className='bg-[#f5f5f5] md:pt-20 pt-10 px-10 md:px-20'>
@@ -40,7 +44,7 @@ const Details = () => {
                     <h2 className='text-2xl font-bold'>{title}</h2>
                     <p className='text-xl text-gray-600 mt-2'>Developed by <span className='bg-linear-163 from-[#7110dd] to-[#aa59ec] bg-clip-text text-transparent'>productive.io</span></p>
                     <div className="divider"></div>
-                    <div className='flex'>
+                    <div className='flex flex-wrap'>
                         <div className="stats">
                             <div className="stat">
                                 <img src={Download}></img>
@@ -71,7 +75,7 @@ const Details = () => {
                             </div>
                         </div>
                     </div>
-                    <button onClick={() => handleInstall(!show)} className={`btn mt-5 sm:mt-0 text-white ${show ? "btn-disabled bg-[#00d49476]" : ""} bg-[#00d494]`}>{show ? "Installed" : `Install Now (${size} MB)` }</button>
+                    <button onClick={() => handleInstall(!show, newApp.id)} className={`btn mt-5 sm:mt-0 text-white ${show ? "btn-disabled bg-[#00d49476]" : ""} bg-[#00d494]`}>{show ? "Installed" : `Install Now (${size} MB)` }</button>
                 </div>
             </div>
             <div className="divider"></div>

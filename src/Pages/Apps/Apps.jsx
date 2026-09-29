@@ -2,11 +2,17 @@ import { useLoaderData } from 'react-router';
 import SingleApps from './SingleApps';
 import { useState } from 'react';
 import NotFound from '../Error/NotFound';
+import logo from '../../assets/logo.png'
 const Apps = () => {
     const apps = useLoaderData();
     const [searchText, setSearchText] = useState('');
+    const [searchLoading, setSearchLoading] = useState(false)
     const handleSearch = (e) => {
         setSearchText(e.target.value)
+        setSearchLoading(true);
+        setTimeout(() => {
+            setSearchLoading(false)
+        }, 500);
     }
     const filterApps = apps.filter((app) =>
         app.title.toLowerCase().includes(searchText.toLowerCase())
@@ -40,11 +46,24 @@ const Apps = () => {
                                 </label>
                             </div>
                         </div>
-                        <div className="mt-4 grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
-                            {
-                                filterApps.map((item, index) => <SingleApps key={index} item={item}></SingleApps>)
-                            }
-                        </div>
+                        {
+                            searchLoading ?
+                                <div className={`h-15 w-15 mt-16 mx-auto`}>
+                                    <div className="flex items-center justify-center gap-6">
+                                        <img className="animate-spin" src={logo} />
+                                        <div className="flex items-center text-2xl font-bold">
+                                            <p className='me-2'>Loading</p>
+                                            <span className="loading loading-dots loading-md"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                :
+                                <div className="mt-4 grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
+                                    {filterApps.map((item, index) => <SingleApps key={index} item={item}></SingleApps>)
+                                    }
+                                </div>
+                        }
+
                     </div>
                 </div> : <NotFound></NotFound>
             }

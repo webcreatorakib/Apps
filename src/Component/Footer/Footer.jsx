@@ -13,7 +13,7 @@ const Footer = () => {
                         <figure className='h-10 w-10'>
                             <img src={logo}></img>
                         </figure>
-                        <span className="text-white">HERO.IO</span>
+                        <span className="text-white">AppNex</span>
                     </a>
                     <div>
                         <p>Social Links</p>

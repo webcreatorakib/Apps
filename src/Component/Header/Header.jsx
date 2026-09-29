@@ -21,12 +21,12 @@ const Header = () => {
                         </ul>
                     </div>
                     <Link to={"/"}>
-                        <a className="flex gap-1 items-center cursor-pointer font-bold text-xl">
+                        <div className="flex gap-1 items-center cursor-pointer font-bold text-xl">
                             <figure className='h-10 w-10'>
                                 <img src={logo}></img>
                             </figure>
-                            <span className="bg-linear-163 from-[#7110dd] to-[#aa59ec] bg-clip-text text-transparent">HERO.IO</span>
-                        </a>
+                            <span className="bg-linear-163 from-[#7110dd] to-[#aa59ec] bg-clip-text text-transparent">AppNex</span>
+                        </div>
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">

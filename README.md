@@ -203,9 +203,9 @@
 8. sweetalert2
 
 
-AppStore
+AppNex
 
-AppStore is a modern web application built with React JS. It provides an app-store-style interface where users can explore applications, view app details, ratings, reviews, downloads, and other information.
+AppNex is a modern web application built with React JS. It provides an app-store-style interface where users can explore applications, view app details, ratings, reviews, downloads, and other information.
 
 🚀 Technologies Used
 

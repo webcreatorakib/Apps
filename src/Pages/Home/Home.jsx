@@ -3,8 +3,9 @@ import Google from "../../assets/fi_16076057.png";
 import App from "../../assets/fi_5977575.png";
 import Hero from '../../assets/hero.png';
 import HomeApps from "./Trendaing/Apps/HomeApps";
-import { Suspense, useState } from "react";
+import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
+import logo from '../../assets/logo.png'
 const Home = () => {
     const apps = useLoaderData();
     const [appsData, setAppsData] = useState(() => {
@@ -13,10 +14,10 @@ const Home = () => {
     const handleLoadMore = () => {
         if (
             appsData.length >= apps.length) {
-            toast("No More Apps !",{
+            toast("No More Apps !", {
                 style: {
                     background: "black",
-                    color : "white"
+                    color: "white"
                 }
             });
             return;
@@ -24,7 +25,10 @@ const Home = () => {
         const addSlice = apps.slice(0, appsData.length + 12);
         setAppsData(addSlice)
     }
-
+    const [isLoading, setIsLoading] = useState(true)
+    setTimeout(() => {
+        setIsLoading(false)
+    }, 400);
     return (
         <div className="bg-[#f5f5f5] text-center pt-10 md:pt-20">
             <div className="px-5">
@@ -67,21 +71,34 @@ const Home = () => {
                     <h2 className="text-4xl md:text-5xl font-bold">Trending Apps</h2>
                     <p className="my-5 text-gray-500">Explore All Trending Apps on the Market developed by us</p>
                 </div>
-                <div className="mt-10 sm:px-8 md:px-20 grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
-                    {
-                        appsData.map((item, index) => <Suspense fallback={<span className="loading loading-spinner text-error"></span>}>
-                            <HomeApps item={item} key={index}></HomeApps>
-                        </Suspense>)
-                    }
-                </div>
+                {
+                    // !appsData.length
+                    isLoading ?
+                        <div className={`h-15 w-15 mt-16 mx-auto`}>
+                            <div className="flex items-center justify-center gap-6">
+                                <img className="animate-spin" src={logo} />
+                                <div className="flex items-center text-2xl font-bold">
+                                    <p className='me-2'>Loading</p>
+                                    <span className="loading loading-dots loading-md"></span>
+                                </div>
+                            </div>
+                        </div>
+                        :
+                        <div className="mt-10 sm:px-8 md:px-20 grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
+                            {
+                                appsData.map((item, index) => <HomeApps item={item} key={index}></HomeApps>)
+                            }
+                        </div>
+                }
+
                 <div className='mt-5 md:mt-10'>
-                    <button className='btn bg-linear-163 from-[#7110dd] to-[#aa59ec] text-white md:btn-xl' onClick={()=>handleLoadMore()}>Show More</button>
+                    <button className='btn bg-linear-163 from-[#7110dd] to-[#aa59ec] text-white md:btn-xl' onClick={() => handleLoadMore()}>Show More</button>
                 </div>
             </div>
             {/* alert */}
             <ToastContainer />
         </div>
-        
+
     );
 };
 
