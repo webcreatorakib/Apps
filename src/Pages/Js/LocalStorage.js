@@ -10,7 +10,6 @@ const getStorage = () => {
 const setStorage = (id) => {
     const getData = getStorage();
     if (getData.includes(id)) {
-        console.log("Data is add")
         return;
     } else {
         getData.push(id)
@@ -18,4 +17,9 @@ const setStorage = (id) => {
         localStorage.setItem('cart', data);
     }
 }
-export { getStorage,setStorage }
+const removeItem = (id) => {
+    const getData = getStorage();
+    const currentData = getData.filter(item => item !== id);
+    localStorage.setItem('cart', JSON.stringify(currentData));
+}
+export { getStorage,setStorage, removeItem}

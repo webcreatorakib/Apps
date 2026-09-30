@@ -1,13 +1,48 @@
-import React from 'react';
-import { ArrowDownToLine, ColumnsSettings } from 'lucide-react';
+import React, { useState } from 'react';
+import { ArrowDownToLine } from 'lucide-react';
 import Star from '../../assets/icon-ratings.png';
-import { ArrowBigDownDash } from 'lucide-react'
 import { useLoaderData } from 'react-router';
-import { getStorage } from '../Js/LocalStorage';
+import { getStorage, removeItem } from '../Js/LocalStorage';
+import { toast, ToastContainer } from 'react-toastify';
 const InstallApps = () => {
-    const installData = useLoaderData();
+    //সকল ডাটা লোড করা হয়েছে।
+    const apps = useLoaderData();
+    //লোকাল ‍স্টোরেজ থেকে ID নেওয়া হয়েছে।
     const localData = getStorage();
-    const filterData = installData.filter(item => localData.includes(item.id));
+    // state এর ভিতর ID গুলো নেওয়া হয়েছে।
+    const [installIds, setInstallIds] = useState(localData);
+    //লোকাল স্টোরেজের ID এর মিল সম্পূর্ণ id দ্বারা apps এর ডাটা গুলো নেওয়া হয়েছে।
+    const installedApps = apps.filter(item => installIds.includes(item.id));
+
+    const handleUninstall = (id) => {
+        //লোকাল স্টোরেজ থেকে আইডি রিমোভ করা হয়েছে।
+        removeItem(id);
+        //previous data বা Id এর সাথে ক্লিক করা যে Id মিল রয়েছে ‍ ‍সেটি বাদ দিয়ে বাকি গুলো নেওয়া হয়েছে।
+        setInstallIds(prev => prev.filter(item => item !== id));
+        //alert show for successfully uninstall
+        toast("Uninstall successful", {
+            style: {
+                background: "black",
+                color: "white",
+            }
+        })
+    }
+    //For sorting
+    const [sortBy, setSortBy] = useState("default");
+
+    const sortApps = [...installedApps].sort((a, b) => {
+        
+        if (sortBy === "name") {
+            return a.title.localeCompare(b.title)
+        }
+        if (sortBy === "size") {
+            return a.size - b.size;
+        }
+        if (sortBy === "download") {
+            return b.downloads - a.downloads
+        }
+    });
+
     return (
         <div className='bg-[#f5f5f5]'>
             <div class="py-10 md:py-20 md:max-w-dvw px-8 md:px-20 md:mx-5">
@@ -16,19 +51,20 @@ const InstallApps = () => {
                     <p className="my-5 text-gray-500">Explore All Trending Apps on the Market developed by us</p>
                 </div>
                 <div className="flex justify-between mt-10">
-                    <h4 className="font-bold text-xl pt-3">{filterData.length} Apps Found</h4>
+                    <h4 className="font-bold text-xl pt-3">{sortApps.length} Apps Found</h4>
                     <div>
-                        <details className="dropdown">
-                            <summary className="btn m-1">Sort By Size <ArrowBigDownDash /></summary>
-                            <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-40 p-2 shadow-sm">
-                                <li><a>Item 1</a></li>
-                                <li><a>Item 2</a></li>
-                            </ul>
-                        </details>
+                        <fieldset className="fieldset">
+                            <select onChange={(e) => setSortBy(e.target.value)} defaultValue="Sort By :" className="select">
+                                <option disabled={true} value="Sort By :">Sort By :</option>
+                                <option value={"name"}>Name</option>
+                                <option value={"size"}>Size</option>
+                                <option value={"download"}>Download</option>
+                            </select>
+                        </fieldset>
                     </div>
                 </div>
                 {
-                    filterData.map(item => 
+                    sortApps.map(item => 
                         <div className='mt-4'>
                             <div className='flex flex-col sm:flex-row items-center justify-between mb-4 bg-white p-5'>
                                 <div className='flex flex-col sm:flex-row gap-5'>
@@ -51,13 +87,13 @@ const InstallApps = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <button className='btn bg-[#00d494] mt-5 sm:mt-0 btn-accent text-white'>Uninstall</button>
+                                <button onClick={()=>handleUninstall(item.id)} className='btn bg-[#00d494] mt-5 sm:mt-0 btn-accent text-white'>Uninstall</button>
                             </div>
                         </div>
                     )
                 }
-
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
