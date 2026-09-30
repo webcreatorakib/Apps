@@ -36,6 +36,7 @@ const Details = () => {
     }
     return (
         <div className='bg-[#f5f5f5] md:pt-20 pt-10 px-10 md:px-20'>
+            <title>AppNex - Details</title>
             <div className='flex flex-col md:flex-row gap-5'>
                 <div className='flex justify-center'>
                     <img className='w-96' src={image}></img>

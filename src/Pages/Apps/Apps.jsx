@@ -19,6 +19,7 @@ const Apps = () => {
     )
     return (
         <>
+            <title>AppNex - Apps</title>
             {
                 filterApps.length ? <div className='bg-[#f5f5f5]'>
                     <div class="py-10 md:py-20 md:max-w-dvw px-8 md:px-20 md:mx-5">

@@ -45,6 +45,7 @@ const InstallApps = () => {
 
     return (
         <div className='bg-[#f5f5f5]'>
+            <title>AppNex - Install</title>
             <div class="py-10 md:py-20 md:max-w-dvw px-8 md:px-20 md:mx-5">
                 <div className='text-center'>
                     <h2 className="text-4xl md:text-5xl font-bold">Your Installed Apps </h2>

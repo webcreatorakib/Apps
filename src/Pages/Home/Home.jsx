@@ -31,6 +31,7 @@ const Home = () => {
     }, 400);
     return (
         <div className="bg-[#f5f5f5] text-center pt-10 md:pt-20">
+            <title>AppNex - Home</title>
             <div className="px-5">
                 <h1 className="text-5xl md:text-6xl font-bold">We Build <br></br> <span className="bg-linear-163 from-[#7110dd] to-[#aa59ec] bg-clip-text text-transparent font-extrabold">Productive</span> Apps</h1>
                 <p className="my-6 text-gray-500 md:text-xl">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br></br>Our goal is to turn your ideas into digital experiences that truly make an impact.</p>

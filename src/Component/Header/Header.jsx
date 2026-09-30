@@ -6,7 +6,7 @@ import { House, LayoutGrid, ArrowBigDownDash } from 'lucide-react';
 const Header = () => {
     return (
         <div className='md:max-w-dvw px-5 md:px-20 md:mx-5'>
-            <div className="navbar">
+            <div className="navbar sticky">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className=" ps-0 pe-4 btn-ghost lg:hidden">
